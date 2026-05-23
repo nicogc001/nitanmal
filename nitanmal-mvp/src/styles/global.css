@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #2f6f35;
+  --brand-dark: #213b22;
+  --cream: #f9fbf1;
+  --green-bg: #dbe9c8;
+  --muted: #66715e;
+  --line: #c7d9b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", Inter, ui-sans-serif, system-ui, sans-serif;
+  background: radial-gradient(circle at top left, rgba(159, 192, 124, 0.6), transparent 32rem),
+    linear-gradient(180deg, #dbe9c8 0%, #eef6df 45%, #dbe9c8 100%);
+  color: #182014;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
